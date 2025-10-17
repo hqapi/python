@@ -1,4 +1,5 @@
 .idea/
 **/*~
-hqapi/python_client.egg-info
+hqapi_client/hqapi_client.egg-info
+hqapi_client/dist
 venv

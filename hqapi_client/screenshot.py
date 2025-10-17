@@ -1,5 +1,3 @@
-# python_client/screenshot_client.py
-
 import requests
 from typing import Optional, Dict, Any
 

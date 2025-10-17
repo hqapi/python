@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="hqapi",  # must match your Python package folder
+    name="hqapi_client",  # must match your Python package folder
     version="1.0.0",
     description="Python client for the HQAPI.com",
     author="HQAPI",
