@@ -1,5 +1,5 @@
 .idea/
 **/*~
-hqapi_client/hqapi_client.egg-info
-hqapi_client/dist
+hqapi_client.egg-info
+dist
 venv
