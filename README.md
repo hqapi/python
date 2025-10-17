@@ -31,5 +31,20 @@ pip install hqapi
 
 Distributed under the MIT License.
 
+## Examples
+### Screenshot Create method
 
+```python
+from hqapi.screenshot_client import ScreenshotClient
+
+# Set your token, get yours at https://hqapi.com/
+SCREENSHOT_API_TOKEN="--put--your--token--here--"
+
+client = ScreenshotClient(token=SCREENSHOT_API_TOKEN)
+image_data = client.create(url="https://hqapi.com/")
+
+# Save to disk
+with open("screenshot.png", "wb") as f:
+    f.write(image_data)
+```
 
