@@ -24,6 +24,7 @@ Usage
 Here is a basic example of how to use the client:
 
 .. code-block:: python
+
     from hqapi.screenshot import ScreenshotClient
 
     # Set your token, get yours at https://hqapi.com/
