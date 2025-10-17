@@ -13,9 +13,8 @@ class ScreenshotClient:
     """
     Client for interacting with the Screenshot API.
 
-    Methods:
+    Method:
         - create: Capture a screenshot of a website with customizable options.
-        - nop: Test connectivity / no-operation endpoint.
     """
 
     BASE_URL = "https://api.eu-west.hqapi.com/api/v1"
