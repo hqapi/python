@@ -24,7 +24,7 @@ handling HTTP requests.
 Install via pip:
 
 ```bash
-pip install hqapi
+pip install hqapi-client
 ```
 
 ## License
@@ -35,7 +35,7 @@ Distributed under the MIT License.
 ### Screenshot Create method
 
 ```python
-from hqapi.screenshot import ScreenshotClient
+from hqapi_client.screenshot import ScreenshotClient
 
 # Set your token, get yours at https://hqapi.com/
 SCREENSHOT_API_TOKEN="--put--your--token--here--"
