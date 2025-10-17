@@ -86,7 +86,6 @@ class ScreenshotClient:
         try:
             response = requests.post(url_endpoint, json=payload)
             response.raise_for_status()
-            # Convert bytes to PIL Image
             return response.content
         except requests.exceptions.HTTPError as e:
             try:

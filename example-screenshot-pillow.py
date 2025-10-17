@@ -1,6 +1,6 @@
 from PIL import Image
 import io
-from hqapi.screenshot import ScreenshotClient
+from hqapi_client.screenshot import ScreenshotClient
 
 # Set your token, get yours at https://hqapi.com/
 SCREENSHOT_API_TOKEN="--put--your--token--here--"
