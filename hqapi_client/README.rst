@@ -24,12 +24,18 @@ Usage
 Here is a basic example of how to use the client:
 
 .. code-block:: python
+    from hqapi.screenshot import ScreenshotClient
 
-    from hqapi_client import HQAPIClient
+    # Set your token, get yours at https://hqapi.com/
+    SCREENSHOT_API_TOKEN="--put--your--token--here--"
 
-    client = HQAPIClient(api_key="YOUR_API_KEY")
-    screenshot = client.capture_screenshot(url="https://example.com")
-    print(screenshot)
+    client = ScreenshotClient(token=SCREENSHOT_API_TOKEN)
+    image_data = client.create(url="https://hqapi.com/")
+
+    # Save to disk
+    with open("screenshot.png", "wb") as f:
+        f.write(image_data)
+    
 
 Dependencies
 ------------
